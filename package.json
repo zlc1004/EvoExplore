@@ -1,37 +1,41 @@
 {
-    "name": "template-nextjs",
-    "version": "1.2.0",
-    "description": "A Phaser 3 Next.js project template that demonstrates Next.js with React communication and uses Vite for bundling.",
+    "name": "evoexplore",
+    "version": "0.1.0",
+    "description": "EvoExplore - An evolution-based multiplayer RPG game built with Phaser 3 and Next.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/phaserjs/template-nextjs.git"
+        "url": "git+https://github.com/yourusername/evoexplore.git"
     },
-    "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+    "author": "EvoExplore Team",
     "license": "MIT",
-    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
-    "bugs": {
-        "url": "https://github.com/phaserjs/template-nextjs/issues"
-    },
-    "homepage": "https://github.com/phaserjs/template-nextjs#readme",
     "keywords": [
         "phaser",
         "phaser3",
         "next",
         "nextjs",
-        "vite",
+        "game",
+        "multiplayer",
         "typescript"
     ],
     "scripts": {
         "dev": "node log.js dev & next dev -p 8080",
         "build": "node log.js build & next build",
         "dev-nolog": "next dev -p 8080",
-        "build-nolog": "next build"
+        "build-nolog": "next build",
+        "start": "next start",
+        "docker:up": "docker-compose up -d",
+        "docker:down": "docker-compose down",
+        "docker:logs": "docker-compose logs -f"
     },
     "dependencies": {
         "next": "15.3.1",
         "phaser": "^3.90.0",
         "react": "19.0.0",
-        "react-dom": "19.0.0"
+        "react-dom": "19.0.0",
+        "@clerk/nextjs": "^5.0.0",
+        "mongodb": "^6.3.0",
+        "socket.io": "^4.7.0",
+        "socket.io-client": "^4.7.0"
     },
     "devDependencies": {
         "@types/node": "^20",

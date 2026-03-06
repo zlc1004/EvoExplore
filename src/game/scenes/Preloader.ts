@@ -1,4 +1,6 @@
 import { Scene } from 'phaser';
+import { PlaceholderGenerator } from '../utils/PlaceholderGenerator';
+import i18n from '@/lib/localization';
 
 export class Preloader extends Scene
 {
@@ -18,30 +20,44 @@ export class Preloader extends Scene
         //  This is the progress bar itself. It will increase in size from the left based on the % of progress.
         const bar = this.add.rectangle(512-230, 384, 4, 28, 0xffffff);
 
+        //  Loading text
+        const loadingText = this.add.text(512, 340, i18n.getText('text.loading', 'Loading...'), {
+            fontFamily: 'Arial',
+            fontSize: '20px',
+            color: '#ffffff'
+        }).setOrigin(0.5);
+
         //  Use the 'progress' event emitted by the LoaderPlugin to update the loading bar
         this.load.on('progress', (progress: number) => {
-
             //  Update the progress bar (our bar is 464px wide, so 100% = 464px)
             bar.width = 4 + (460 * progress);
-
         });
     }
 
     preload ()
     {
-        //  Load the assets for the game - Replace with your own assets
-        this.load.setPath('assets');
+        //  Load localization first
+        this.load.json('locale_en_us', 'assets/locales/en-us.json');
 
-        this.load.image('logo', 'logo.png');
-        this.load.image('star', 'star.png');
+        //  Load any real assets here in the future
+        //  For now, we'll generate placeholder assets in create()
+        
+        // Example: this.load.image('player_core', 'assets/images/player_core.png');
     }
 
     create ()
     {
-        //  When all the assets have loaded, it's often worth creating global objects here that the rest of the game can use.
-        //  For example, you can define global animations here, so we can use them in other scenes.
+        //  Load localization data
+        const localeData = this.cache.json.get('locale_en_us');
+        if (localeData) {
+            // Store in game registry for access across scenes
+            this.registry.set('locale_data', localeData);
+        }
 
-        //  Move to the MainMenu. You could also swap this for a Scene Transition, such as a camera fade.
+        //  Generate placeholder assets
+        PlaceholderGenerator.generateGameAssets(this);
+
+        //  Move to the MainMenu
         this.scene.start('MainMenu');
     }
 }
