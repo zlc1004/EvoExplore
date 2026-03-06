@@ -1,0 +1,244 @@
+Concept
+Game
+Player will start of as a cell in a petri dish and fighting with other cell(mob) and player, after reaching lv 10 and with some 2nd rarity player will see a animation about game’s storyline and gone to the next stage, a open RPG world like Diablo. 
+
+While grinding up to lv 75 to reach next stage player will unlock pieces of hint(very little amount) of story to get the background of this “game”. After reaching lv 75 player will unlock a place called “Industrial” and will be told that the whole story(give evidence if they are smart enough to guess it) while exploring. After complete this space player will be send out and keep grinding until reaching lv 100
+
+After reaching lv 100 with 10+ ultra player can choose to fight the boss to end the game and start endless grinding or keep the world like before(difference will be told) They can fight it in a squad or solo, if failed player will have to drop back to lv 90 and lose 10 ultra. After completed the they will unlock a ability and start to grind for it the rest of their life(flower life)
+
+Industrial: A place you can only enter after lv 75. Can only leave by dying or collected all the piece of a cog(8). In there player will unlock one special ability that allowed player to spilt and doge the incoming dmg, will be taken away after boss fight(can be earn back) if dead in the map of Industrial the player will lost a random ultra petal on the ground, but other player can pick it up.
+
+After the finial boss fight player can start to endless grinding for better petal. There will be special event and game mode to let players to play with(maybe include gacha)
+ 
+Boss: There still will be boss with heath bar like ultra+ mob. The finial boss has the ability of all the “Industrial” mob combined.
+
+Phase 1: Cell vs. Cell(mob/player)
+Phase 2: To creature(flower) Open world(Biome: Grassland, Desert, Ocean, Jungle, Savanna, Marine, Sewers, Factory, Swamp, Arctic etc.)
+Phase 3: factory(new biome with better loot and harder difficulty)
+Phase 4: Finial Boss
+Phase 5: Open world again
+Player will unlock ability, skill and talent with more game play or from special place discover. 
+
+Flower(player)
+Ability
+Each of them have cool down, can be upgrade
+Jump up on the wall(special mob in there and other)
+Doge(spilt player for 2 second doging any incoming damage)
+Freeze(freeze all mob in a range)
+Teleport(teleport to where you are 3 second ago)
+Skill
+Unlock with achievement and lv
+Inventory - shop(With NPC)
+Absorb - 
+Craft - trade(With NPC/Player) - 
+Mob gallery - boss gallery
+Achievement - Special gift(petal*, TP, ability)
+*can’t be lost in PVP
+Talent-Main
+Unlock with talent point gain by lv
+Reload - rotation speedHeath - mana capacity 
+Damage - poison - fire - lightning - body damage
+Medic - mana genration - second chance
+Slot - magnet - reach 
+
+Other
+Other Bosses(one per biome)
+Small Boss(for every mob)
+P2W - one time purchase - Get coin* per month, 10 random mythic per month.
+*coin is a in game currency, let players buy skin, petal, ability and other stuff 
+Mini Game, Community Event, Special Game Mode
+Mini Game: PVP: lose a mythic petal upon death, can’t leave unless gain 10k score, after leaving gain a random ultra petal and 100k XP(good for lv farming)
+Maybe adding to steam later on
+Setup discord server
+
+Detail 2
+1. Player and Weapon Visual Presentation (Display & Visuals)
+The core visual concept of your game is the **“Circular Array”**, emphasizing the balance between a microscopic organism aesthetic and industrial machinery feel.
+Player Character (The Flower Core)
+* Status Feedback: The core (player center) is not merely a static image.
+    * Health Display: Core color shifts with health levels. Fully healed, it appears crystal clear; critically low health causes it to dim and crack.
+    * Environmental Adaptation: Entering different biomes triggers subtle visual changes. For example, in Arctic biomes, frost forms on the core's surface; in Industrial biomes, flowing digital matrices or circuit textures appear.
+* Layered Structure:
+    1. Base Layer: Aura, displaying the current biome's Affect effect (e.g., desert fire glow).
+    2. Middle Layer: Core (character body).
+    3. Top Layer: Petal Array.
+Weapon Display: Petals
+* Slot Visuals: Petals do not adhere to the Core but float around it.
+    * Orbital Effect: Slots unlocked at different tiers can be distributed across varying “orbital heights,” forming inner and outer rings for a more complex, powerful appearance.
+    * Rarity Light Effects:
+        * Common (White): Simple organic texture.
+        * Ultra (Red/Gold): Features particle trail effects with dynamic scaling or deformation animations (e.g., pulsing like breathing).
+* Equipment Preview: In the UI, hovering over a petal displays its rotational path curve, visually indicating attack range.
+
+2. Core Combat Mechanics
+Rotation & Physics
+* Dynamic RPM: Rotation speed isn't a static value.
+    * Inertia System: When moving, petals slightly drift in the opposite direction due to inertia (drag effect), adding tactile feedback to controls.
+    * Collision Decay: When petals strike heavy enemies, RPM temporarily dips slightly to simulate “resistance.”
+* Attack Mechanics:
+    * Sweet Spot: The outer edge of petals deals maximum damage. Damage decreases if enemies are too close to the core, encouraging players to maintain distance.
+    * Knockback: Different petals possess distinct physical masses. For example, Ocean's bubble petals deal low damage but can knock enemies extremely far.
+Phase Split - Special Mechanic
+* Activation: Press Control or a specific key.
+* Visual Effect: Player core and petals instantly blur, become semi-transparent, and slightly expand outward.
+* Mechanic Details: (Example)
+    * During split, the player is unselectable and immune to all collisions and bullets.
+    * Cost: Cannot attack while split.
+    * Industrial Zone Bonus: If damage is avoided during the split initiation in Industrial maps, triggers a “Perfect Dodge,” significantly boosting the critical hit rate of the next attack for a short duration.
+
+3. Progression System Details (RPG Progression)
+The Forge (Synthesis & Evolution)
+* Recipe Mechanics: More than just 5+1.
+    * Material Influence: Adding “Essence” from specific biomes (e.g., Swamp slime) during synthesis imbues petals with poison properties.
+    * Ultra Awakening: When synthesizing Ultra petals, they randomly gain an “Entry” (e.g., +10% Attack Range or Restores 1%$ HP per Kill).
+4. Industrial Zone and Story Mode Details (The Industrial Logic)
+* The Narrative:
+    * Environmental Storytelling: Players will encounter massive, decommissioned “First Generation Flower” prototypes throughout the Industrial Zone.
+    * Gear Collection: Gathering 8 gears isn't just for unlocking doors—each collected gear adds a mechanical beat to the background music (BGM), culminating in a full industrial heavy metal track during the final boss battle.
+* Evidence System:
+    * Players will discover wreckage of the “False Sky” projector at the map's edge, proving all biomes exist within a massive factory.
+Flower
+Layered Talent System
+Base Talent (Level 1)
+Unlocks Level 2 Talent (at Lv.10)
+Unlocks Level 3 Talent (at Lv.20)
+Reload Speed -     Overclock: Maximum Speed -         Centrifugal Force: Increases impact damage during rotation
+Health -     Mana Capacity: Activates Mana Ring -         Shielding: Mana automatically block 80% one instance of damage cost 10 mana
+Damage -     Poison / Fire / Lightning: Elemental Damage -     Explosive / Chain: Enhanced Elemental Effects - Body Damage: Core Impact Force - Spiked Core: Core Counterattack
+Medic -     Mana Generation: Accelerated Mana Regeneration -         Mana Leech: Restores Mana by Attacking Enemies
+Second Chance: Last-Ditch Survival -         Phoenix Rebirth: Full-Screen Damage Upon Revival
+Slot (Slot)Reach (Extension): Attack Radius -    Flexible Stem: Variable Attack Trajectory - XP Absorb (Absorption): Experience Magnet - Double Drop: Chance for Double Loot on Kill
+Skill Acquisition Mechanism: Fragments & Practice
+The “dropping fragments from monsters” you mentioned offers far more satisfaction than simply unlocking skills through leveling up.
+* Drop Mechanism: Fragments for specific skills drop exclusively from corresponding elite monsters or bosses.
+* Practice Animation: When you collect 5 fragments and click “Practice,” the game enters a brief cutscene showing your core (cell/flower) absorbing these fragments and mastering new powers.
+Expanded Ability Ideas
+Garden Bumblebee Boost (Sprint) - Consumes 15 Mana. Instantly accelerates forward, colliding with enemies for double damage.
+
+Desert Flame Emperor Scorpion Heat Nova (Thermal Nova) - Consumes 40 Mana. A mana ring violently expands outward, triggering a fire-elemental explosion around you.
+
+Ocean Dragon Lice Battleship Bubble Shield - Consumes 40 Mana. Expands the mana ring outward to form a shield, repelling all nearby targets.
+
+Jungle Centipede Multi-Segment - Consumes 100 Mana. Instantly creates 3 clones of yourself.
+
+Savanna Storm Locust Wind Blast - Consumes 30 Mana. The mana ring shoots a powerful gust forward, forcibly pushing 
+back all monsters in its path.
+
+Marine Deep Sea Crab Stomp - Consumes 35 Mana. Leaps into the air and slams down, stunning enemies in a small area.
+
+Sewer Corrupt Fly King Split (Split) - Costs 30 Mana. The core splits into three phantoms, ignoring collisions and doubling movement speed for 2 seconds.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+Swamp Toxic Web - Consumes 35 Mana. The mana ring emits spider silk in all directions, slowing and dealing sustained damage to surrounding enemies.
+
+Arctic Freeze - Consumes 60 Mana. The mana ring instantly freezes, halting all monsters around the core for 3 seconds.
+
+Player Visuals & Mechanics
+UI Display
+* Mana Bar: After unlocking the secondary talent following Health, a blue energy bar appears below your health bar.
+* Talent Tree Preview: The talent interface doesn't display everything directly; instead, it shows “shadows.” When your Damage reaches a certain threshold, the Poison and Fire icons will illuminate, indicating they are selectable.
+Game Mechanics
+* Elemental Synergy:
+    * Combining Lightning (lightning damage) with Freeze (freezing skill) triggers a “Superconductivity” effect, dealing double lightning damage to frozen enemies.
+    * Poison can be paired with Reach to kite opponents from a distance with your toxic petals, continuously stacking layers.
+Practice Details
+* When practicing skills, a progress light effect appears at the screen's center.
+* For Split skills, you'll see the core practicing how to “split itself in two.”
+World
+Wave mode(lv 1 - lv 10)
+Wave 1-20(max): The Micro-Arena (Lv. 1 - 9) - server one
+The Look: Background is a blurry microscope slide (grey/white). The "Arena" is a sharp white circle (the glass).
+Gameplay: Only Cell Mobs spawn. They are slow and move randomly. This allows the player to get used to the petal rotation.
+Music: Low hum, scientific, sterile.
+Wave 10-20(max) (lv. 1 - 9)
+New Mobs: Cell-Beetles (High HP, slow) and Cell-Ladybugs (Low HP, fast burst movement) enter the arena.
+Environment: The "Gardener" (a giant shadow occasionally passing over the dish) creates a sense of being watched.
+The Climax: The Task Complete (Lv. 10)
+Visual Shift: All mob spawns stop. The background music cuts out.
+The Single Room: The camera zooms out. The player realizes they are in a tiny dish on a massive metal table.
+Text Prompt: A cold, robotic voice-over or text appears: "VITALITY QUOTA MET. PROCEED TO INCUBATION."
+The Breakout: * The "Exit" isn't a door; it's a crack in the glass.
+The player must Dash into the glass 3 times.
+On the 3rd hit, the glass shatters (use a Particle System!).
+The player falls off the table into the "Grassland" biome below. The game transitions from florr.io style arena to a scrolling florr.io open world
+RPG World (Lv 11 - Lv 74)
+* Lv 11 - 25 (Inner Ring): Grassland, Jungle.
+* Lv 26 - 45 (Middle Ring): Ocean, Desert, Savanna.
+* Lv 46 - 65 (Depths): Swamp, Sewers, Factory, Arctic.
+* Lv 66 - 74 (Restricted Zone): Marine and transition zone leading to the Final Factory.
+
+Lv upgrade
+Lv 11: RPG World Unlocked: Exit the Arena and enter Grassland. Gain first off-hand slot.
+Lv 15: Petal Synthesis Furnace (Craft): Unlock synthesis system. Evolve 5 base petals into “Rare” quality.
+Lv 20: Attribute Talent Tree (Talents): Unlocks the stat allocation system: Can boost [Armor], [RPM], or [Critical Hit].
+Lv 25: Achievement (Achievement): Unlocks achievements, granting generous rewards.
+Lv 30: Secondary Slot (Secondary): Grants a secondary slot to equip auxiliary petals.
+Lv 42: Affect Tweak: Allows players to slightly mitigate environmental debuffs (e.g., Arctic freeze slow).
+Lv 50: Carapace: Unlocks a torso equipment slot. Shells dropped by defeated bosses provide passive shields.
+Lv 55: Awaken: Unlocks an active ultimate ability (CD 60s) based on your most equipped petal type.
+Lv 64: Double Boost: An exceptionally powerful ability: retains 20% of the previous biome's buffs while in the current biome.
+Lv 70: Upgrade Slot: The final petal slot, typically used for the “Core Petal.”
+Lv 75: Ascension: Qualifies you to challenge the final Factory Boss and unlocks full-map teleportation.
+
+Biome
+Biome Effect
+1. Garden —— 【Gravity Potential】
+Effect: Simulates the physics of vertical space.
+Impact: Movement speed increases by $+25\%$ when moving downward on-screen, and Body Damage increases by $20\%$. Movement speed decreases by $15\%$ when moving upward.
+Core Logic: Encourages players to soar like eagles to high ground, then dive down for devastating strikes.
+2. Desert — 【Heat Overload】
+Effect: Extreme heat reduces defence but heightens aggression.
+Effect: Player Armour $-50\%$, but all attacks deal 10% additional Fire splash damage and slightly increased Reach.
+Core Logic: Glass cannon mode. You become fragile, but each attack ignites enemies.
+3. Ocean — 【Hydraulic Boost】
+Effect: Water resistance and bubble interaction.
+Impact: Base movement speed $-20\%$, but all bubble-type petals increase in volume by $+50\%$ and knockback doubles.
+Core Logic: Alter combat pacing by controlling battlefield distance with large bubbles, preventing enemy close-quarters engagement.
+4. Jungle — 【Hyper-Photosynthesis】
+Effect: Extremely high oxygen levels accelerate cellular repair.
+Impact: HP Region $+100\%$, but viscous air reduces petal rotation speed (Reload) by $-25\%$.
+Core Logic: Stationary defence play style. You recover health extremely quickly, allowing greater margin for error, but your attack frequency slows.
+5. Savanna — [Tailwind Flow]
+Effect: Strong seasonal winds alter movement dynamics.
+Effect: Movement speed $+50\%$ when moving with the wind. When attacking with the wind, petal projectile range (Reach) increases by 100%.
+Core Logic: Ranged kiting. Players must constantly monitor wind direction indicators to execute “kiting” tactics.
+6. Swamp — [Corrosive Methane]
+Effect: Toxic gas erodes armour while enhancing weapon penetration.
+Effect: Global damage $+30\%$, but player's maximum health (Max HP) temporarily reduced by 20%.
+Core Logic: Rapid elimination. Swiftly eliminate enemies before maximum health is reduced, ideal for high burst damage builds.
+7. Sewer — 【Bio-Mutation】
+Effect: Contaminants stimulate neural responses.
+Effect: Critical Chance $+40\%$, but damage taken increases by $20\%$.
+Core Logic: Gambler Mode. Utilize extremely high critical probability to instantly clear enemies, but mistakes come at a heavy cost.
+8. Factory — 【Static Overclock】
+Effect: Electromagnetic radiation from mechanical facilities enhances petal efficiency.
+Effect: Reload Speed $+50\%$, but all skill cooldowns (CD) extend by 50%.
+Core Logic: Pure flat A-flow. Sacrifices skill damage to rely on rapidly spinning petals forming a “meat grinder”-like defensive circle.
+9. Marine — 【Deep Pressure】
+Effect: High-pressure environments compress biological density.
+Result: Defence (Armour) $+60\%$, but Movement Speed $-40\%$.
+Core Logic: Steel tank. Extremely slow movement, but enemies struggle to penetrate its formidable armor.
+10. Arctic — 【Superconductive】
+Effect: Low temperatures eliminate electrical resistance, enhancing neural conduction.
+Impact: Skill cooldown (CD) $-40\%$, but collision damage increased by $25\%$.
+Core Logic: Skill-focused.
+
+Boss
+Garden Bumblebee: Dives from high altitudes using gravity, moving at extreme speeds. Players must dodge laterally.
+Desert Flame Emperor Scorpion: Exploits players' “zero armor” state to fire highly explosive venomous stingers.
+Ocean Dragon Lice Battleship: Generates reverse water currents to counteract player speed, forcing them to use bubbles to push away.
+Jungle Centipede: Scatters toxic powder coated in sticky mud.
+Savanna Storm Locust: Manipulates wind direction, making it nearly untouchable against headwinds. Can also pull players toward it.
+Marine Deep-Sea Giant Crab: Pressure-resistant and cannot be knocked back. Players must engage in close-quarters combat using high defense.
+Sewer: Putrid Fly King - Projectiles of corrosive fluid further reduce your defenses.
+Factory: Mechanical Parasite Wasp - Fires massive barrages; must be blocked using the “shield” formed by high-speed petals.
+Sawmp Mud Black Widow: Spits venomous silk. Once your maximum health is depleted, its poison damage becomes extremely lethal.
+Arctic Frost Moth: Creates numerous ice walls, forcing players to frequently use the “Dodge” skill to break through.
+
+
+
+
+
+
+
+
+
