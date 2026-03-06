@@ -8,8 +8,8 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" style={{ margin: 0, padding: 0, width: '100%', height: '100%' }}>
+      <body style={{ margin: 0, padding: 0, width: '100%', height: '100%', overflow: 'hidden' }}>
         <ClerkProvider>
           <header style={{
             position: 'fixed',
@@ -19,8 +19,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             padding: '1rem',
             display: 'flex',
             gap: '0.5rem',
-            background: 'rgba(0, 0, 0, 0.5)',
-            borderRadius: '0 0 0 8px'
+            background: 'rgba(0, 0, 0, 0.7)',
+            borderRadius: '0 0 0 8px',
+            backdropFilter: 'blur(10px)'
           }}>
             <SignedOut>
               <SignInButton mode="modal">
@@ -31,7 +32,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   border: 'none',
                   borderRadius: '4px',
                   cursor: 'pointer',
-                  fontWeight: 'bold'
+                  fontWeight: 'bold',
+                  fontSize: '14px'
                 }}>
                   Sign In
                 </button>
@@ -44,7 +46,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   border: 'none',
                   borderRadius: '4px',
                   cursor: 'pointer',
-                  fontWeight: 'bold'
+                  fontWeight: 'bold',
+                  fontSize: '14px'
                 }}>
                   Sign Up
                 </button>

@@ -1,8 +1,28 @@
 'use client';
 
-import { useRef } from 'react';
-import { IRefPhaserGame, PhaserGame } from '../PhaserGame';
+import { useRef, useEffect, useState } from 'react';
 import { SignedIn, SignedOut, useUser } from '@clerk/nextjs';
+import type { IRefPhaserGame } from '../PhaserGame';
+
+// Dynamic import to avoid SSR issues with Phaser
+const PhaserGame = dynamic(() => import('../PhaserGame').then(mod => ({ default: mod.PhaserGame })), {
+  ssr: false,
+  loading: () => (
+    <div style={{ 
+      width: '100vw', 
+      height: '100vh', 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'center',
+      color: 'white',
+      fontSize: '2rem'
+    }}>
+      Loading Game...
+    </div>
+  )
+});
+
+import dynamic from 'next/dynamic';
 
 export default function Home() {
   const phaserRef = useRef<IRefPhaserGame | null>(null);
